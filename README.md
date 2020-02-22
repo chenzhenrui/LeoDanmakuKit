@@ -54,6 +54,8 @@ danmaku.text = self.textfiled.text;
 Then
 
 ```
+self.danmakuView = [LeoDanmakuView new];
+[self.danmakuView resume];
 [self.danmakuView addDanmaku:danmaku];
 
 ```
